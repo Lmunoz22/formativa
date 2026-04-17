@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Configuracion rem */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+
+
+    font-size: 1.6rem;
+    /* Configuracion rem */
+
+    background-color: #dee9f7;
+
+}
+
+header {
+    background-color: #465B75;
+}
+
+.barra{
+    display: flex;
+}
+
+.header {
+
+    width: 150rem;
+    height: 40rem;
+    position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
