@@ -19,26 +19,174 @@ body {
     background-color: #dee9f7;
 
 }
-
+/*header*/
 header {
     background-color: #465B75;
 }
 
 .barra{
     display: flex;
+    justify-content:space-between ;
 }
 
 .header {
 
     width: 150rem;
-    height: 40rem;
+    height: 34rem;
     position: center;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .navbar a {
     text-decoration: none;
+    color: aliceblue;
+    margin-right: 3rem;
 
 }
+
+.navbar a:hover{
+    color: #808080 ;
+}
+
+.navbar {
+    margin-top: 2rem;
+    
+
+}
+
+.titulo{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    }
+
+img{
+    max-width: 100%;
+        }
+
+.logo{
+    flex-basis: 14%;
+    margin-left: 1rem;
+}
+/*header*/
+
+/*main*/
+.main{
+    width: 150rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.lateral{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    margin-right: 2rem;
+    height: 80rem;
+    border: 1px solid #6A6F75;
+    margin-top: 2rem ;
+    
+}
+
+.clave input{
+    border-radius: 10px;
+    padding: 3px;
+    margin: 0.4rem 0.5rem;
+    background-color: rgb(189, 189, 189);
+    width: 28rem;    
+    }
+    
+
+
+.general{
+    display: flex;
+    flex-direction: column;
+    
+}
+.general select{border-radius: 10px;
+  padding: 3px;
+  margin: 0.4rem 0.5rem;
+  background-color: rgb(189, 189, 189);}
+
+.proce{
+    display: flex;
+    flex-direction: column;
+}
+.proce select{
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0.4rem 0.5rem;
+  background-color: rgb(189, 189, 189);
+}
+.ram{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ram select{
+  border-radius: 10px;
+  padding: 3px;
+  margin: 0.4rem 0.5rem;
+  background-color: rgb(189, 189, 189);}
+
+
+.principal{
+    margin-top: 2rem;
+    background-color: #ffffff;
+    flex-basis: 80%;
+    height: 177rem;
+    border: 0.1rem solid #6A6F75;
+    
+}
+
+.dentro{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notebook{
+    flex-basis: 26%;
+    margin-left: 6rem;
+}
+
+.notebook span{
+    font-weight: bold;
+}
+
+.notebook h3{
+    color: black;
+    
+}
+
+.notebook a{
+    text-decoration: none;
+}
+
+.clave legend{
+    margin-left: 1.5rem;
+}
+.general legend{
+    margin-left: 1.5rem;
+}
+.proce legend{
+    margin-left: 1.5rem;
+}
+.ram legend{
+    margin-left: 1.5rem;
+}
+.principal h2{
+    margin-left: 4rem;
+}
+
+.precio{
+    color: #ff6347;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/*main*/
